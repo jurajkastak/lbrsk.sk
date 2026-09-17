@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lbrsk.sk/sitemap.xml

@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>L.B.R. — Long Business Relationship · zásobovanie firiem</title>
+<meta name="description" content="L.B.R. zásobuje firmy na Slovensku ochrannými pracovnými prostriedkami, hygienou, obalmi a kancelárskymi potrebami. Jeden dodávateľ, jedna objednávka, jedna faktúra. Doprava zadarmo nad 150 €.">
+<link rel="canonical" href="https://lbrsk.sk/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sk_SK">
+<meta property="og:site_name" content="L.B.R.">
+<meta property="og:title" content="L.B.R. — Vzťah na dlhé roky, nie jedna objednávka">
+<meta property="og:description" content="Kompletné prevádzkové zásobovanie firiem: ochranné pomôcky, hygiena, obaly, kancelária. Doprava zadarmo nad 150 €.">
+<meta property="og:url" content="https://lbrsk.sk/">
+<meta property="og:image" content="https://lbrsk.sk/og.png">
+<meta name="theme-color" content="#A50F1A">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"L.B.R.","alternateName":"Long Business Relationship","url":"https://lbrsk.sk/","logo":"https://lbrsk.sk/logo.svg","areaServed":"SK"}
+</script>
+<style>
+:root{
+  --ground:#FBFAF9;--surface:#FFFFFF;--surface-2:#F4F0ED;
+  --ink:#1A1416;--ink-2:#453B3A;--muted:#6F6360;
+  --line:#E6E0DC;--line-strong:#D3C9C3;
+  --brand:#A50F1A;--brand-ink:#A50F1A;--brand-soft:#FBE9EA;--on-brand:#FFF7F6;
+  --radius:14px;--maxw:1180px;
+  --shadow:0 1px 0 rgba(26,20,22,.04),0 12px 30px -22px rgba(26,20,22,.45);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#141011;--surface:#1C1718;--surface-2:#241E1F;
+    --ink:#F3EDEA;--ink-2:#D6CCC8;--muted:#A69B97;
+    --line:#2F2827;--line-strong:#3E3534;
+    --brand:#E23B45;--brand-ink:#F0616A;--brand-soft:#2B1417;--on-brand:#1A0E0F;
+    --shadow:0 1px 0 rgba(0,0,0,.3),0 16px 34px -24px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#141011;--surface:#1C1718;--surface-2:#241E1F;
+  --ink:#F3EDEA;--ink-2:#D6CCC8;--muted:#A69B97;
+  --line:#2F2827;--line-strong:#3E3534;
+  --brand:#E23B45;--brand-ink:#F0616A;--brand-soft:#2B1417;--on-brand:#1A0E0F;
+  --shadow:0 1px 0 rgba(0,0,0,.3),0 16px 34px -24px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"Public Sans","Helvetica Neue",Arial,sans-serif;font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Bricolage Grotesque","Public Sans",Arial,sans-serif;font-weight:700;letter-spacing:-.02em;line-height:1.06;margin:0;text-wrap:balance}
+p{margin:0}
+a{color:inherit}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:24px}
+.lbl{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.tbd{color:var(--muted);border-bottom:1px dashed var(--line-strong);font-style:italic}
+a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--brand);color:var(--on-brand);padding:8px 12px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+
+/* logo 7A */
+.logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none}
+.logo .mark{width:44px;height:44px;flex:none;display:block}
+.logo .word{font-family:"Bricolage Grotesque",Arial,sans-serif;font-weight:700;font-size:23px;letter-spacing:-.03em;line-height:1;color:var(--ink)}
+.logo .sub{font-family:"JetBrains Mono",monospace;font-size:8.6px;letter-spacing:.2em;color:var(--muted);margin-top:5px;white-space:nowrap;display:block}
+
+/* header */
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--ground) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.top .bar{display:flex;align-items:center;gap:28px;height:78px}
+nav.main{display:flex;gap:22px;margin-left:auto;flex-wrap:wrap}
+nav.main a{text-decoration:none;color:var(--ink-2);font-size:14.5px;font-weight:500;padding:6px 0;border-bottom:2px solid transparent}
+nav.main a:hover{color:var(--brand-ink);border-bottom-color:var(--brand)}
+.btn{display:inline-flex;align-items:center;gap:9px;font-weight:600;font-size:15px;text-decoration:none;padding:12px 20px;border-radius:10px;border:1px solid transparent;transition:transform .12s ease,background .12s ease,border-color .12s ease}
+.btn-brand{background:var(--brand);color:var(--on-brand)}
+.btn-brand:hover{transform:translateY(-1px)}
+.btn-ghost{border-color:var(--line-strong);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand-ink)}
+.top .btn{margin-left:auto}
+nav.main + .btn{margin-left:0}
+
+/* hero */
+.hero{padding:86px 0 64px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.35fr .85fr;gap:56px;align-items:end}
+.hero h1{font-size:clamp(40px,5.6vw,68px);font-weight:800}
+.hero h1 em{font-style:normal;color:var(--brand-ink)}
+.hero .lead{margin-top:24px;font-size:19px;color:var(--ink-2);max-width:56ch}
+.hero .cta{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}
+.hero-aside{border-left:1px solid var(--line);padding-left:28px;display:grid;gap:20px}
+.hero-aside .item strong{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:19px;letter-spacing:-.01em}
+.hero-aside .item span{font-size:14.5px;color:var(--muted)}
+
+/* sections */
+section{padding:76px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:grid;grid-template-columns:220px 1fr;gap:40px;margin-bottom:44px;align-items:start}
+.sec-head h2{font-size:clamp(28px,3.4vw,40px)}
+.sec-head p{color:var(--ink-2);max-width:62ch;margin-top:14px}
+
+/* sortiment */
+.cat{display:grid;grid-template-columns:64px 1fr 1.15fr auto;gap:28px;align-items:start;padding:26px 0;border-top:1px solid var(--line);text-decoration:none}
+.cat:last-of-type{border-bottom:1px solid var(--line)}
+.cat:hover{background:var(--surface-2)}
+.cat .num{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--brand-ink);padding-top:6px}
+.cat h3{font-size:23px}
+.cat .desc{color:var(--muted);font-size:15px;margin-top:8px;display:block}
+.cat .subs{display:flex;flex-wrap:wrap;gap:7px;padding-top:6px}
+.cat .subs span{font-size:12.5px;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--line);padding:3px 9px;border-radius:999px}
+.cat .go{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--brand-ink);white-space:nowrap;padding-top:8px}
+
+/* piliere */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.pillar{background:var(--surface);padding:28px 26px}
+.pillar h3{font-size:18px;margin-bottom:8px}
+.pillar p{font-size:14.8px;color:var(--muted)}
+.pillar .k{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--brand-ink);letter-spacing:.12em;display:block;margin-bottom:14px}
+
+/* eko */
+.eco{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.eco-card{background:var(--brand-soft);border-radius:var(--radius);padding:38px 34px}
+.eco-card h2{font-size:clamp(26px,3vw,36px);color:var(--brand-ink)}
+.eco-card p{margin-top:16px;color:var(--ink-2)}
+.eco ul{margin:0;padding-left:20px;display:grid;gap:12px;color:var(--ink-2)}
+
+/* kroky */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.step{border-top:2px solid var(--brand);padding-top:16px}
+.step h3{font-size:17px;margin-bottom:8px}
+.step p{font-size:14.8px;color:var(--muted)}
+
+/* kontakt */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.contact-rows{display:grid;gap:0}
+.crow{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--line);align-items:baseline}
+.crow:last-child{border-bottom:1px solid var(--line)}
+.crow a{color:var(--brand-ink);text-decoration:none}
+.crow a:hover{text-decoration:underline}
+.dopyt{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;box-shadow:var(--shadow)}
+.dopyt h3{font-size:22px;margin-bottom:10px}
+.dopyt p{color:var(--ink-2);font-size:15px}
+.dopyt ul{margin:16px 0 0;padding-left:20px;color:var(--ink-2);font-size:15px;display:grid;gap:8px}
+
+/* footer */
+footer{background:var(--surface-2);padding:64px 0 34px}
+.fgrid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px}
+.fcol h4{font-family:"Public Sans",sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px}
+.fcol ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.fcol a,.fcol span{font-size:14.5px;color:var(--ink-2);text-decoration:none}
+.fcol a:hover{color:var(--brand-ink)}
+.fcol span.soon{color:var(--muted)}
+.fnote{font-size:14px;color:var(--muted);max-width:38ch;margin-top:18px}
+.fbot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+@media (max-width:960px){
+  .hero-grid,.eco,.contact{grid-template-columns:1fr;gap:38px}
+  .hero-aside{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:24px}
+  .sec-head{grid-template-columns:1fr;gap:14px}
+  .pillars,.steps{grid-template-columns:repeat(2,1fr)}
+  .cat{grid-template-columns:34px 1fr;gap:16px}
+  .cat .go{display:none}
+  .fgrid{grid-template-columns:1fr 1fr}
+  nav.main{display:none}
+}
+@media (max-width:620px){
+  .wrap{padding-inline:16px}
+  .pillars,.steps,.fgrid{grid-template-columns:1fr}
+  .crow{grid-template-columns:1fr;gap:2px}
+  .top .bar{height:auto;padding:14px 0;gap:12px;flex-wrap:wrap}
+  .logo .sub{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#hore" aria-label="L.B.R. — domov">
+      <svg class="mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
+        <rect x="0" y="0" width="64" height="64" rx="17" fill="#A50F1A"></rect>
+        <g fill="none" stroke="#FFFFFF" stroke-width="5.2">
+          <circle cx="24.6" cy="32" r="8.6"></circle>
+          <circle cx="39.4" cy="32" r="8.6"></circle>
+        </g>
+      </svg>
+      <span>
+        <span class="word">L.B.R.</span>
+        <span class="sub">LONG BUSINESS RELATIONSHIP</span>
+      </span>
+    </a>
+    <nav class="main" aria-label="Hlavné menu">
+      <a href="#kto-sme">Kto sme</a>
+      <a href="#sortiment">Sortiment</a>
+      <a href="#preco">Prečo L.B.R.</a>
+      <a href="#udrzatelnost">Udržateľnosť</a>
+      <a href="#ako-to-funguje">Ako to funguje</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-brand" href="#kontakt">Nezáväzný dopyt →</a>
+  </div>
+</header>
+
+<main id="hore">
+
+  <div class="hero" id="obsah">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="lbl">Zásobovanie firiem · Slovensko</p>
+        <h1 style="margin-top:18px">Vzťah na dlhé roky,<br><em>nie jedna objednávka.</em></h1>
+        <p class="lead">L.B.R. — Long Business Relationship. Vybavíme vašu firmu ochrannými pomôckami, hygienou, obalmi aj kanceláriou. Vy sa venujete svojmu podnikaniu, o zvyšok sa postaráme my — rýchlo, kvalitne a spoľahlivo.</p>
+        <div class="cta">
+          <a class="btn btn-brand" href="#kontakt">Nezáväzný dopyt →</a>
+          <a class="btn btn-ghost" href="#sortiment">Pozrieť sortiment</a>
+        </div>
+      </div>
+      <div class="hero-aside">
+        <div class="item"><strong>Doprava zadarmo nad 150 €</strong><span>Po celom Slovensku</span></div>
+        <div class="item"><strong>Široký sortiment skladom</strong><span>Bežný tovar odosielame ihneď</span></div>
+        <div class="item"><strong>Online a telefonické poradenstvo</strong><span>Pon – Pia 9:00 – 17:00</span></div>
+        <div class="item"><strong>Preskladnenie tovaru</strong><span>Držíme zásobu pre vašu prevádzku</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="kto-sme">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="lbl">01 — Kto sme</p>
+        <div>
+          <h2>Jeden dodávateľ namiesto desiatich</h2>
+          <p>L.B.R. je obchodná spoločnosť, ktorá firmám zabezpečuje kompletné prevádzkové zásobovanie. Servis, poradenstvo a riešenia na profesionálnej úrovni — s rovnakou starostlivosťou o veľkého aj malého zákazníka.</p>
+          <p style="margin-top:14px">Chceme byť silným a spoľahlivým partnerom pre zákazníkov aj pre dodávateľov, preto sme pri výbere nároční. Dodávateľ musí spĺňať naše kritériá, aby sme vám vedeli garantovať kvalitný a vždy dostupný servis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sortiment">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="lbl">02 — Sortiment</p>
+        <div>
+          <h2>Štyri oblasti, ktoré pokrývame kompletne</h2>
+          <p>Od pracovnej obuvi po toaletný papier a kartónové krabice. Všetko na jednej objednávke, jednej faktúre a jednom závoze.</p>
+        </div>
+      </div>
+
+      <a class="cat" href="#kontakt">
+        <span class="num">01</span>
+        <span>
+          <h3>Osobné ochranné pracovné prostriedky</h3>
+          <span class="desc">Kompletné vystrojenie zamestnanca podľa rizík na pracovisku.</span>
+        </span>
+        <span class="subs">
+          <span>Ochrana hlavy</span><span>Ochrana sluchu</span><span>Ochrana zraku</span>
+          <span>Ochrana proti pádu</span><span>Obuv</span><span>Odevy</span>
+          <span>Rukavice</span><span>Jednorazové rukavice a doplnky</span>
+        </span>
+        <span class="go">Dopyt →</span>
+      </a>
+
+      <a class="cat" href="#kontakt">
+        <span class="num">02</span>
+        <span>
+          <h3>Personálna a profesionálna hygiena</h3>
+          <span class="desc">Hygiena a drogéria pre prevádzky, kancelárie aj sociálne zariadenia.</span>
+        </span>
+        <span class="subs">
+          <span>Papierový program</span><span>Zásobníky</span><span>Mydlá a dezinfekcia</span>
+          <span>Čistiaca chémia</span><span>Upratovacia technika</span>
+        </span>
+        <span class="go">Dopyt →</span>
+      </a>
+
+      <a class="cat" href="#kontakt">
+        <span class="num">03</span>
+        <span>
+          <h3>Obalové hospodárstvo</h3>
+          <span class="desc">Všetko na zabalenie, označenie a odoslanie tovaru.</span>
+        </span>
+        <span class="subs">
+          <span>Kartóny</span><span>Fólie a pásky</span><span>Výplňové materiály</span>
+          <span>Etikety</span><span>Vrecia a sáčky</span>
+        </span>
+        <span class="go">Dopyt →</span>
+      </a>
+
+      <a class="cat" href="#kontakt">
+        <span class="num">04</span>
+        <span>
+          <h3>Kancelárske potreby</h3>
+          <span class="desc">Bežná spotreba kancelárie s pravidelným závozom.</span>
+        </span>
+        <span class="subs">
+          <span>Papier a tlač</span><span>Písacie potreby</span><span>Archivácia</span>
+          <span>Občerstvenie do kancelárie</span>
+        </span>
+        <span class="go">Dopyt →</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="preco">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="lbl">03 — Prečo L.B.R.</p>
+        <div>
+          <h2>Šesť dôvodov, prečo u nás zákazníci zostávajú</h2>
+          <p>Naše meno nie je náhoda. Dlhodobý obchodný vzťah sa nedá kúpiť zľavou — stojí na tom, že veci fungujú aj vtedy, keď sa niečo pokazí.</p>
+        </div>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><span class="k">SPOĹAHLIVOSŤ</span><h3>Držíme slovo aj termín</h3><p>Čo potvrdíme, to dodáme. Ak niečo nestíhame, viete o tom skôr, než to zistíte sami.</p></div>
+        <div class="pillar"><span class="k">LOGISTIKA</span><h3>Prepracované zavážanie</h3><p>Pravidelné závozy, možnosť preskladnenia tovaru a držania zásoby pre vašu prevádzku.</p></div>
+        <div class="pillar"><span class="k">KVALITA</span><h3>Preverení výrobcovia</h3><p>Sortiment od renomovaných slovenských a zahraničných výrobcov — bez kompromisov na certifikátoch.</p></div>
+        <div class="pillar"><span class="k">ODBORNOSŤ</span><h3>Poradíme, nie predáme</h3><p>Odborné poradenstvo a návrhy optimalizačných riešení — často vás vyjdú lacnejšie než pôvodná objednávka.</p></div>
+        <div class="pillar"><span class="k">SERIÓZNOSŤ</span><h3>Individuálny prístup</h3><p>Vlastný obchodník, dohodnuté ceny a podmienky, žiadne prekvapenia na faktúre.</p></div>
+        <div class="pillar"><span class="k">KOMPLEXNOSŤ</span><h3>Všetko od jedného partnera</h3><p>Štyri sortimentné oblasti, jedna objednávka, jedna faktúra, jeden kontakt.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="udrzatelnost">
+    <div class="wrap eco">
+      <div class="eco-card">
+        <p class="lbl" style="color:var(--brand-ink)">Ekologický papierový program</p>
+        <h2 style="margin-top:12px">Papier z nápojových kartónov</h2>
+        <p>Nová generácia hygienického papiera z celulózových vlákien získaných recykláciou nápojových kartónov. Na jeho výrobu netreba vyrúbať ani jeden strom — stačí obal od nápoja.</p>
+        <p style="margin-top:22px"><a class="btn btn-brand" href="#kontakt">Chcem vzorky →</a></p>
+      </div>
+      <div>
+        <ul>
+          <li>Nebielené vlákna si držia prirodzenú farbu dreva — zákazníci ju vnímajú ako znak ekologickej hodnoty.</li>
+          <li>Kompletný sortiment certifikovaný ako ekologicky šetrný.</li>
+          <li>Hygienické výrobky dermatologicky testované.</li>
+          <li>Ekoznačka garantuje dodržanie kritérií ochrany životného prostredia počas celého životného cyklu výrobku.</li>
+          <li>Vhodné pre firmy, ktoré vykazujú environmentálne ciele alebo sa hlásia do tendrov s ESG kritériami.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="ako-to-funguje">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="lbl">04 — Ako to funguje</p>
+        <div>
+          <h2>Od prvého dopytu po pravidelný závoz</h2>
+          <p>Nemusíte vedieť presné názvy ani kódy. Povedzte nám, čo na prevádzke potrebujete, a ostatné dorobíme my.</p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step"><h3>1 · Dopyt</h3><p>Napíšete alebo zavoláte. Zoberieme zoznam, faktúry od súčasného dodávateľa alebo len fotky z prevádzky.</p></div>
+        <div class="step"><h3>2 · Návrh a ceny</h3><p>Pripravíme sortiment na mieru s individuálnymi cenami a alternatívami, kde sa dá ušetriť.</p></div>
+        <div class="step"><h3>3 · Prvá dodávka</h3><p>Objednávate e-mailom alebo telefonicky, e-shop pripravujeme. Doprava nad 150 € zadarmo.</p></div>
+        <div class="step"><h3>4 · Pravidelný režim</h3><p>Nastavíme intervaly závozov a držanie zásoby, aby vám nikdy nič nechýbalo.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="lbl">05 — Kontakt</p>
+        <div>
+          <h2>Potrebujete pomôcť? Ozvite sa</h2>
+          <p>Obchodné oddelenie vám poskytne všetky potrebné informácie, pripraví cenovú ponuku aj vzorky.</p>
+        </div>
+      </div>
+      <div class="contact">
+        <div>
+          <div class="contact-rows">
+            <div class="crow"><span class="lbl">Telefón</span><span class="tbd" data-fill="telefon">doplníme</span></div>
+            <div class="crow"><span class="lbl">E-mail</span><span class="tbd" data-fill="email">doplníme</span></div>
+            <div class="crow"><span class="lbl">Sídlo</span><span class="tbd" data-fill="sidlo">doplníme</span></div>
+            <div class="crow"><span class="lbl">Otváracie hodiny</span><span>Pon – Pia 9:00 – 17:00</span></div>
+            <div class="crow"><span class="lbl">IČO / DIČ / IČ DPH</span><span class="tbd" data-fill="ico">doplníme</span></div>
+          </div>
+        </div>
+        <div class="dopyt">
+          <p class="lbl">Nezáväzný dopyt</p>
+          <h3 style="margin-top:10px">Čo nám pošlite, aby sme vedeli naceniť</h3>
+          <p>Stačí jedna z týchto vecí. Do dvoch pracovných dní sa vám ozveme s návrhom sortimentu a cien.</p>
+          <ul>
+            <li>Zoznam položiek, ktoré bežne nakupujete (stačí Excel alebo fotka).</li>
+            <li>Faktúry od súčasného dodávateľa za posledné 1 – 3 mesiace.</li>
+            <li>Alebo len opis prevádzky: koľko ľudí, aké riziká, koľko sociálnych zariadení.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fcol">
+        <a class="logo" href="#hore" aria-label="L.B.R.">
+          <svg class="mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <rect x="0" y="0" width="64" height="64" rx="17" fill="#A50F1A"></rect>
+            <g fill="none" stroke="#FFFFFF" stroke-width="5.2">
+              <circle cx="24.6" cy="32" r="8.6"></circle>
+              <circle cx="39.4" cy="32" r="8.6"></circle>
+            </g>
+          </svg>
+          <span>
+            <span class="word">L.B.R.</span>
+            <span class="sub">LONG BUSINESS RELATIONSHIP</span>
+          </span>
+        </a>
+        <p class="fnote">Zásobujeme firmy ochrannými pomôckami, hygienou, obalmi a kanceláriou. Vy robte to, čo vás živí — o zvyšok sa postaráme my.</p>
+      </div>
+      <div class="fcol">
+        <h4>Sortiment</h4>
+        <ul>
+          <li><a href="#sortiment">Osobné ochranné pracovné prostriedky</a></li>
+          <li><a href="#sortiment">Personálna a profesionálna hygiena</a></li>
+          <li><a href="#sortiment">Obalové hospodárstvo</a></li>
+          <li><a href="#sortiment">Kancelárske potreby</a></li>
+          <li><a href="#udrzatelnost">Ekologický papierový program</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Všetko o nákupe</h4>
+        <ul>
+          <li><a href="#preco">Prečo nakupovať u nás</a></li>
+          <li><a href="#ako-to-funguje">Ako to funguje</a></li>
+          <li><a href="#ako-to-funguje">Doprava a platba</a></li>
+          <li><a href="#kontakt">Nezáväzný dopyt</a></li>
+          <li><span class="soon">E-shop — pripravujeme</span></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Obchodné podmienky</h4>
+        <ul>
+          <li><span class="soon">Všeobecné obchodné podmienky — pripravujeme</span></li>
+          <li><span class="soon">Reklamačný poriadok — pripravujeme</span></li>
+          <li><span class="soon">Ochrana osobných údajov — pripravujeme</span></li>
+          <li><a href="#kontakt">Kontaktné údaje</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 L.B.R. · <span class="tbd" data-fill="ico">IČO, DIČ, IČ DPH doplníme</span></span>
+      <span>lbrsk.sk</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
