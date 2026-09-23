@@ -135,7 +135,7 @@ section{padding:76px 0;border-bottom:1px solid var(--line)}
 .step p{font-size:14.8px;color:var(--muted)}
 
 /* kontakt */
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px}
 .contact-rows{display:grid;gap:0}
 .crow{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:16px 0;border-top:1px solid var(--line);align-items:baseline}
 .crow:last-child{border-bottom:1px solid var(--line)}
@@ -171,18 +171,17 @@ footer{background:var(--surface-2);padding:64px 0 34px}
   .wrap{padding-inline:16px}
   .pillars,.steps,.fgrid{grid-template-columns:1fr}
   .crow{grid-template-columns:1fr;gap:2px}
-  .top .bar{height:auto;padding:14px 0;gap:12px;flex-wrap:wrap}
+  .top .bar{height:auto;padding-block:14px;gap:12px;flex-wrap:wrap}
   .logo .sub{display:none}
 }
 
 /* formulár dopytu */
-.contact{grid-template-columns:.85fr 1.15fr}
 .dopyt form{margin-top:22px;display:grid;gap:16px}
 .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .field{display:grid;gap:6px}
 .field label{font-size:13px;font-weight:600;color:var(--ink-2)}
 .field label small{font-weight:400;color:var(--muted)}
-.field input,.field textarea{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--ground);border:1px solid var(--line-strong);border-radius:10px;padding:11px 13px;transition:border-color .2s ease,box-shadow .2s ease,background .2s ease}
+.field input,.field textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--ground);border:1px solid var(--line-strong);border-radius:10px;padding:11px 13px;transition:border-color .2s ease,box-shadow .2s ease,background .2s ease}
 .field textarea{min-height:120px;resize:vertical}
 .field input:hover,.field textarea:hover{border-color:var(--muted)}
 .field input:focus,.field textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px var(--brand-soft);background:var(--surface)}
@@ -200,7 +199,7 @@ footer{background:var(--surface-2);padding:64px 0 34px}
 .fsend{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:4px}
 .fsend .note{font-size:13px;color:var(--muted)}
 .hp{position:absolute;left:-9999px;opacity:0;height:0;width:0}
-@media (max-width:620px){.frow{grid-template-columns:1fr}}
+@media (max-width:620px){.frow{grid-template-columns:1fr}.dopyt{padding:24px 18px}.dopyt h3{font-size:20px}.fsend{flex-direction:column;align-items:stretch}.fsend .btn{justify-content:center}.fsend .note{text-align:center}}
 
 /* ===== prechody a pohyb ===== */
 :root{--ease:cubic-bezier(.22,1,.36,1);--dur:.6s}
